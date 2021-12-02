@@ -1,0 +1,4 @@
+digits = ["zero", "one", "two", "three","four", "five", "six", "seven","eight", "nine"]
+user=int(input("Enter a number:  "))
+for i in str(user):
+        print(digits[int(i)],end=' ')
